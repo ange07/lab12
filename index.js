@@ -30,7 +30,7 @@ switch (task) {
     globalThis.getServerURL = task1.getServerURL;
     globalThis.addUser = task3.addUser;
     addUser("Kai", "Nathaniel", "kai.n@example.org");
-    setTimeout(function () { fetch(getServerURL() + "/users/6").then(response => response.json()).then(data => console.log(data)); }, 2000);
+    setTimeout(function () { fetch(getServerURL() + "/users/b133").then(response => response.json()).then(data => console.log(data)); }, 2000);
     break;
   case 4:
     globalThis.getServerURL = task1.getServerURL;
